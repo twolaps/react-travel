@@ -2,11 +2,23 @@ import React from 'react';
 
 import styles from './App.module.css';
 import { Footer, Header } from './components';
+import {Row, Col} from 'antd';
 
 function App() {
   return (
     <div className={styles.App}>
       <Header />
+      {/* 其他内容组件可以放在这里，比如主体内容 */}
+      <div className={styles['page-content']}>
+        <Row style={{marginTop:20}}>
+          <Col span={6}>
+            <div style={{background:"red"}}>多重菜单</div>
+          </Col>
+          <Col span={18}>
+            <div style={{backgroundColor:"blue"}}>走马灯</div>
+          </Col>
+        </Row>
+      </div>
       <Footer />
     </div>
   );
