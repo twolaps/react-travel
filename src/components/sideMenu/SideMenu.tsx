@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './App.module.css';
+import styles from './SideMenu.module.css'
 import { sideMenuList } from "./MockUp";
 import { Menu } from "antd";
 import { GifOutlined } from "@ant-design/icons";

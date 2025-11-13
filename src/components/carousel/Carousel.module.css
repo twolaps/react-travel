@@ -1,0 +1,21 @@
+/* Carousel local styles */
+
+.slide {
+  width: 100%;
+  height: 250px; /* 固定显示高度，可按需调整或使用媒体查询 */
+  overflow: hidden;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 保持纵横比并裁切以填充容器 */
+  display: block;
+}
+.slider {
+    text-align: center;
+    height: 235px;
+    line-height: 250px;
+    background: #364d79;
+    overflow: hidden;
+}
