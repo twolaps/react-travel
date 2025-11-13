@@ -10,8 +10,8 @@ import sideImage3 from'../../assets/images/sider_2019_02-04-2.png';
 export class Homepage extends React.Component {
     render(): React.ReactNode {
         return (
-            <div className={styles.App}>
-                <Header />
+            <>
+               <Header />
                 <div className={styles['page-content']}>
                     <Row style={{marginTop:20}}>
                     <Col span={6}>
@@ -41,8 +41,8 @@ export class Homepage extends React.Component {
                     />
                 </div>
                 <BusinessPartner/>
-                <Footer />
-            </div>
+                <Footer /> 
+            </>
         );
     }
 }
